@@ -1,0 +1,332 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders 1`] = `
+<Fragment>
+  <div
+    className="App"
+  >
+    <div
+      style={
+        Object {
+          "width": "55%",
+        }
+      }
+    >
+      <div
+        className="back-section"
+      >
+        <div
+          className="back-img"
+        />
+        <div>
+          <a
+            href="#"
+          >
+            Continue Shopping
+          </a>
+        </div>
+      </div>
+      <div
+        className="cart"
+      >
+        <h3
+          className="title"
+        >
+          My Cart
+        </h3>
+      </div>
+      <div
+        className="flex"
+      >
+        <div
+          className="cart-list"
+        >
+          <div
+            className="food"
+          >
+            <img
+              src="https://spoonacular.com/recipeImages/716426-312x231.jpg"
+            />
+            <div
+              className="food-name"
+            >
+              Cauliflower, Brown Rice, and Vegetable Fried Rice
+            </div>
+            <div
+              className="counter"
+            >
+              <button
+                className="counter-button"
+                onClick={[Function]}
+              >
+                -
+              </button>
+              <WithStyles(ForwardRef(TextField))
+                className="count"
+                disabled={true}
+                length="5"
+                margin="none"
+                value="1"
+                variant="outlined"
+              />
+              <button
+                className="counter-button"
+              >
+                +
+              </button>
+            </div>
+            <div
+              className="price"
+            >
+              $6.99
+            </div>
+            <button
+              className="close-btn"
+            >
+              <img
+                alt="Remove Item"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVfv1dF8vhJLOdEEFi0ucw_QBtpPDzoVH4WQ&usqp=CAU"
+                title="Remove Item"
+              />
+            </button>
+          </div>
+          <hr />
+          <div
+            className="food"
+          >
+            <img
+              src="https://spoonacular.com/recipeImages/715594-312x231.jpg"
+            />
+            <div
+              className="food-name"
+            >
+              Homemade Garlic and Basil French Fries
+            </div>
+            <div
+              className="counter"
+            >
+              <button
+                className="counter-button"
+              >
+                -
+              </button>
+              <WithStyles(ForwardRef(TextField))
+                className="count"
+                disabled={true}
+                length="5"
+                margin="none"
+                value="1"
+                variant="outlined"
+              />
+              <button
+                className="counter-button"
+              >
+                +
+              </button>
+            </div>
+            <div
+              className="price"
+            >
+              $7.30
+            </div>
+            <button
+              className="close-btn"
+            >
+              <img
+                alt="close-btn"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVfv1dF8vhJLOdEEFi0ucw_QBtpPDzoVH4WQ&usqp=CAU"
+              />
+            </button>
+          </div>
+          <hr />
+          <div
+            className="food"
+          >
+            <img
+              src="https://spoonacular.com/recipeImages/715497-312x231.jpg"
+            />
+            <div
+              className="food-name"
+            >
+              Berry Banana Breakfast Smoothie
+            </div>
+            <div
+              className="counter"
+            >
+              <button
+                className="counter-button"
+              >
+                -
+              </button>
+              <WithStyles(ForwardRef(TextField))
+                className="count"
+                disabled={true}
+                length="5"
+                margin="none"
+                value="1"
+                variant="outlined"
+              />
+              <button
+                className="counter-button"
+              >
+                +
+              </button>
+            </div>
+            <div
+              className="price"
+            >
+              $7.67
+            </div>
+            <button
+              className="close-btn"
+            >
+              <img
+                alt="close-btn"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVfv1dF8vhJLOdEEFi0ucw_QBtpPDzoVH4WQ&usqp=CAU"
+              />
+            </button>
+          </div>
+          <hr />
+          <div
+            className="subtotal"
+          >
+            <h4>
+              Subtotal:
+            </h4>
+            <h2>
+              $21.96
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="details"
+      style={
+        Object {
+          "backgroundColor": "#303f5f",
+          "borderRadius": "10px",
+          "height": "630px",
+          "marginLeft": "40px",
+          "padding": "20px",
+          "width": "25%",
+        }
+      }
+    >
+      <h3>
+        Credit Card Details
+      </h3>
+      <p>
+        Card Type
+      </p>
+      <WithStyles(ForwardRef(Select))
+        style={
+          Object {
+            "width": "167px",
+          }
+        }
+      >
+        <WithStyles(ForwardRef(MenuItem))
+          key="visa"
+          value="visa"
+        >
+          Visa
+        </WithStyles(ForwardRef(MenuItem))>
+      </WithStyles(ForwardRef(Select))>
+      <p>
+        Cardholder's Name
+      </p>
+      <WithStyles(ForwardRef(TextField))
+        style={
+          Object {
+            "width": "200px",
+          }
+        }
+      />
+      <p>
+        Card Number
+      </p>
+      <WithStyles(ForwardRef(TextField))
+        defaultValue="**** **** **** ****"
+      />
+      <div
+        className="flex"
+      >
+        <div
+          style={
+            Object {
+              "marginRight": "40px",
+            }
+          }
+        >
+          <p>
+            Expiration Date
+          </p>
+          <WithStyles(ForwardRef(Select))
+            defaultValue="none"
+            style={
+              Object {
+                "marginRight": "20px",
+                "width": "75px",
+              }
+            }
+          >
+            <WithStyles(ForwardRef(MenuItem))
+              disabled={true}
+              value="none"
+            >
+              mm
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="mm"
+              value="01"
+            >
+              01
+            </WithStyles(ForwardRef(MenuItem))>
+          </WithStyles(ForwardRef(Select))>
+          <WithStyles(ForwardRef(Select))
+            defaultValue="none"
+            style={
+              Object {
+                "width": "100px",
+              }
+            }
+          >
+            <WithStyles(ForwardRef(MenuItem))
+              disabled={true}
+              value="none"
+            >
+              yyyy
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="yyyy"
+              value="2021"
+            >
+              2021
+            </WithStyles(ForwardRef(MenuItem))>
+          </WithStyles(ForwardRef(Select))>
+        </div>
+        <div
+          style={
+            Object {
+              "width": "75px",
+            }
+          }
+        >
+          <p>
+            CVV
+          </p>
+          <WithStyles(ForwardRef(TextField)) />
+        </div>
+      </div>
+      <div
+        className="checkout"
+      >
+        <button>
+          Check Out
+        </button>
+      </div>
+    </div>
+  </div>
+</Fragment>
+`;
